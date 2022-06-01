@@ -1,0 +1,38 @@
+[29-Mar-2022 17:30:23 America/New_York] PHP Notice:  Undefined variable: account in /home/spyrglje/fxtrade-iq.com/user/partials/navbar.php on line 42
+[29-Mar-2022 17:30:23 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/spyrglje/fxtrade-iq.com/user/partials/navbar.php on line 42
+[29-Mar-2022 17:30:23 America/New_York] PHP Notice:  Undefined variable: account in /home/spyrglje/fxtrade-iq.com/user/partials/sidebar.php on line 8
+[29-Mar-2022 17:30:23 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/spyrglje/fxtrade-iq.com/user/partials/sidebar.php on line 8
+[29-Mar-2022 17:34:26 America/New_York] PHP Notice:  Undefined variable: account in /home/spyrglje/fxtrade-iq.com/user/partials/navbar.php on line 42
+[29-Mar-2022 17:34:26 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/spyrglje/fxtrade-iq.com/user/partials/navbar.php on line 42
+[29-Mar-2022 17:34:26 America/New_York] PHP Notice:  Undefined variable: account in /home/spyrglje/fxtrade-iq.com/user/partials/sidebar.php on line 8
+[29-Mar-2022 17:34:26 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/spyrglje/fxtrade-iq.com/user/partials/sidebar.php on line 8
+[29-Mar-2022 17:47:35 America/New_York] PHP Notice:  Undefined variable: account in /home/spyrglje/fxtrade-iq.com/user/partials/navbar.php on line 42
+[29-Mar-2022 17:47:35 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/spyrglje/fxtrade-iq.com/user/partials/navbar.php on line 42
+[29-Mar-2022 17:47:35 America/New_York] PHP Notice:  Undefined variable: account in /home/spyrglje/fxtrade-iq.com/user/partials/sidebar.php on line 8
+[29-Mar-2022 17:47:35 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/spyrglje/fxtrade-iq.com/user/partials/sidebar.php on line 8
+[29-Mar-2022 17:47:51 America/New_York] PHP Notice:  Undefined variable: account in /home/spyrglje/fxtrade-iq.com/user/partials/navbar.php on line 42
+[29-Mar-2022 17:47:51 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/spyrglje/fxtrade-iq.com/user/partials/navbar.php on line 42
+[29-Mar-2022 17:47:51 America/New_York] PHP Notice:  Undefined variable: account in /home/spyrglje/fxtrade-iq.com/user/partials/sidebar.php on line 8
+[29-Mar-2022 17:47:51 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/spyrglje/fxtrade-iq.com/user/partials/sidebar.php on line 8
+[29-Mar-2022 17:58:31 America/New_York] PHP Notice:  Undefined index: balance in /home/spyrglje/fxtrade-iq.com/user/index.php on line 95
+[29-Mar-2022 17:58:31 America/New_York] PHP Notice:  Undefined index: deposits in /home/spyrglje/fxtrade-iq.com/user/index.php on line 103
+[29-Mar-2022 17:58:31 America/New_York] PHP Notice:  Undefined index: withdraws in /home/spyrglje/fxtrade-iq.com/user/index.php on line 111
+[30-Mar-2022 14:37:42 America/New_York] PHP Notice:  Undefined index: balance in /home/spyrglje/fxtrade-iq.com/user/index.php on line 95
+[30-Mar-2022 14:37:42 America/New_York] PHP Notice:  Undefined index: deposits in /home/spyrglje/fxtrade-iq.com/user/index.php on line 103
+[30-Mar-2022 14:37:42 America/New_York] PHP Notice:  Undefined index: withdraws in /home/spyrglje/fxtrade-iq.com/user/index.php on line 111
+[20-Apr-2022 06:08:47 America/New_York] PHP Notice:  Undefined index: balance in /home/spyrglje/fxtrade-iq.com/user/index.php on line 95
+[20-Apr-2022 06:08:47 America/New_York] PHP Notice:  Undefined index: deposits in /home/spyrglje/fxtrade-iq.com/user/index.php on line 103
+[20-Apr-2022 06:08:47 America/New_York] PHP Notice:  Undefined index: withdraws in /home/spyrglje/fxtrade-iq.com/user/index.php on line 111
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Undefined index: id in /home/spyrglje/fxtrade-iq.com/user/partials/navbar.php on line 2
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Undefined index: unique_id in /home/spyrglje/fxtrade-iq.com/user/partials/navbar.php on line 30
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Undefined index: username in /home/spyrglje/fxtrade-iq.com/user/partials/navbar.php on line 38
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Trying to access array offset on value of type bool in /home/spyrglje/fxtrade-iq.com/user/partials/navbar.php on line 42
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Trying to access array offset on value of type bool in /home/spyrglje/fxtrade-iq.com/user/partials/sidebar.php on line 8
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Undefined index: balance in /home/spyrglje/fxtrade-iq.com/user/withdraw.php on line 198
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Undefined variable: user in /home/spyrglje/fxtrade-iq.com/user/withdraw.php on line 208
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/spyrglje/fxtrade-iq.com/user/withdraw.php on line 208
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Undefined index: balance in /home/spyrglje/fxtrade-iq.com/user/withdraw.php on line 224
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Undefined variable: user in /home/spyrglje/fxtrade-iq.com/user/withdraw.php on line 239
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/spyrglje/fxtrade-iq.com/user/withdraw.php on line 239
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Undefined variable: user in /home/spyrglje/fxtrade-iq.com/user/withdraw.php on line 239
+[15-May-2022 04:40:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/spyrglje/fxtrade-iq.com/user/withdraw.php on line 239

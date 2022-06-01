@@ -1,0 +1,2 @@
+[29-Mar-2022 17:28:55 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/spyrglje/fxtrade-iq.com/middleware/auth.php on line 7
+[29-Mar-2022 17:29:00 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/spyrglje/fxtrade-iq.com/middleware/auth.php on line 7
