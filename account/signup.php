@@ -488,7 +488,7 @@ if (isset($_POST['sign_up'])) {
                 <div class="row mx-md-auto">
 
                     <div class="col-lg-4 footer-contact">
-                        <h3>Smart<span class="bg-primary text-white rounded px-2">FX</span>Crypto<span>.</span></h3>
+                        <h3>Daily<span class="bg-primary text-white rounded px-2">Crypto</span>Returns<span>.</span></h3>
                         <p>
                             Best Digital Crypto FX Investment and Trading Platform.
 
