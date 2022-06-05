@@ -217,12 +217,12 @@ if (isset($_POST['sign_in'])) {
                                 <div class="form-group">
                                     <label for="uname">Username</label>
                                     <input type="text" name="username" id="username" class="form-control" required>
-                                    <span class="help-block text-primary" id="username_err"></span>
+                                    <span class="help-block text-danger" id="username_err"></span>
                                 </div>
                                 <div class="form-group">
                                     <label for="password">Password</label>
                                     <input type="password" name="password" id="password" class="form-control" required>
-                                    <span class="help-block text-primary" id="password_err"></span>
+                                    <span class="help-block text-danger" id="password_err"></span>
                                 </div>
                                 <input type="hidden" name="redirect" value="<?php echo $postLogin; ?>">
                                 <input type="hidden" name="sign_in" value="sign_in">

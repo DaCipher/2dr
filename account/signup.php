@@ -377,14 +377,14 @@ if (isset($_POST['sign_up'])) {
                                         <div class="form-group">
                                             <label for="fullname">First Name</label>
                                             <input type="text" name="firstname" id="firstname" class="form-control" required value="<?php echo $input_fname; ?>">
-                                            <span class="help-block text-primary" id="firstname_err"><?php echo $fname_err; ?></span>
+                                            <span class="help-block text-danger" id="firstname_err"><?php echo $fname_err; ?></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="password">Last Name</label>
                                             <input type="text" name="lastname" id="lastname" class="form-control" required value="<?php echo $input_lname; ?>">
-                                            <span class="help-block text-primary" id="lastname_err"><?php echo $lname_err; ?></span>
+                                            <span class="help-block text-danger" id="lastname_err"><?php echo $lname_err; ?></span>
                                         </div>
                                     </div>
                                 </div>
@@ -393,14 +393,14 @@ if (isset($_POST['sign_up'])) {
                                         <div class="form-group">
                                             <label for="fullname">Middle Name</label>
                                             <input type="text" name="middlename" id="middlename" class="form-control" value="<?php echo $input_mname; ?>">
-                                            <span class="help-block text-primary" id="middlename_err"><?php echo $mname_err; ?></span>
+                                            <span class="help-block text-danger" id="middlename_err"><?php echo $mname_err; ?></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="username">Username</label>
                                             <input type="text" name="username" id="username" class="form-control" required minlength="5" value="<?php echo $input_uname; ?>">
-                                            <span class="help-block text-primary" id="username_err"><?php echo $uname_err; ?></span>
+                                            <span class="help-block text-danger" id="username_err"><?php echo $uname_err; ?></span>
                                         </div>
                                     </div>
                                 </div>
@@ -409,14 +409,14 @@ if (isset($_POST['sign_up'])) {
                                         <div class="form-group">
                                             <label for="email">Email</label>
                                             <input type="email" name="email" id="email" class="form-control" required value="<?php echo $input_email; ?>">
-                                            <span class="help-block text-primary" id="email_err"><?php echo $email_err; ?></span>
+                                            <span class="help-block text-danger" id="email_err"><?php echo $email_err; ?></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="phone">Phone Number</label>
                                             <input type="text" name="phone" id="phone" class="form-control" required minlength="10" value="<?php echo $input_phone; ?>">
-                                            <span class="help-block text-primary" id="phone_err"><?php echo $phone_err; ?></span>
+                                            <span class="help-block text-danger" id="phone_err"><?php echo $phone_err; ?></span>
                                         </div>
                                     </div>
                                 </div>
@@ -430,7 +430,7 @@ if (isset($_POST['sign_up'])) {
                                             <select name="state" class="states order-alpha d-none" id="stateId">
                                                 <option value="">Select State</option>
                                             </select>
-                                            <span class="help-block text-primary" id="country_err"><?php echo $country_err; ?></span>
+                                            <span class="help-block text-danger" id="country_err"><?php echo $country_err; ?></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -445,14 +445,14 @@ if (isset($_POST['sign_up'])) {
                                         <div class="form-group">
                                             <label for="password1">Password</label>
                                             <input type="password" name="password1" id="password1" class="form-control" required>
-                                            <span class="help-block text-primary" id="password1_err"><?php echo $psw1_err; ?></span>
+                                            <span class="help-block text-danger" id="password1_err"><?php echo $psw1_err; ?></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="password2">Confirm Password</label>
                                             <input type="password" name="password2" id="password2" class="form-control" required>
-                                            <span class="help-block text-primary" id="password2_err"><?php echo $psw2_err; ?></span>
+                                            <span class="help-block text-danger" id="password2_err"><?php echo $psw2_err; ?></span>
                                         </div>
                                     </div>
                                 </div>
