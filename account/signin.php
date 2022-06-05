@@ -113,7 +113,7 @@ if (isset($_POST['sign_in'])) {
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Sign In - Daily Digital Returns</title>
+    <title>Sign In - Daily Crypto Returns</title>
     <meta content="Crytpo Currency, Stocks, Indices, Foreign Exchange, Binary" name="Global Cryptocurrency, Forex Trading and Investment">
     <meta content="" name="keywords">
 
@@ -151,9 +151,9 @@ if (isset($_POST['sign_in'])) {
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-xl-10 d-flex align-items-center">
-                    <div class="logo mr-auto"><a href="../">FX<span class="bg-danger text-white rounded px-2">TRADE</span>IQ<span>.</span></a></div>
+                    <div class="logo mr-auto"><a href="../">Daily<span class="bg-primary text-white rounded px-2">Cypto</span>Returns<span>.</span></a></div>
                     <!-- Uncomment below if you prefer to use an image logo -->
-                    <!-- <div class="border border-danger">
+                    <!-- <div class="border border-primary">
                     <a href="index.html" class="logo mr-auto">
 
                     </a>
@@ -208,7 +208,7 @@ if (isset($_POST['sign_in'])) {
                     <div class="col-lg-4 col-md-6 m-auto">
                         <div class="shadow-lg bg-white rounded p-3">
                             <h2>Sign In</h2>
-                            <hr class="bg-danger">
+                            <hr class="bg-primary">
                             <div id="signIn_status" class="alert text-center"></div>
                             <div id="signIn_disabled" class="alert text-center">
                             </div>
@@ -217,18 +217,18 @@ if (isset($_POST['sign_in'])) {
                                 <div class="form-group">
                                     <label for="uname">Username</label>
                                     <input type="text" name="username" id="username" class="form-control" required>
-                                    <span class="help-block text-danger" id="username_err"></span>
+                                    <span class="help-block text-primary" id="username_err"></span>
                                 </div>
                                 <div class="form-group">
                                     <label for="password">Password</label>
                                     <input type="password" name="password" id="password" class="form-control" required>
-                                    <span class="help-block text-danger" id="password_err"></span>
+                                    <span class="help-block text-primary" id="password_err"></span>
                                 </div>
                                 <input type="hidden" name="redirect" value="<?php echo $postLogin; ?>">
                                 <input type="hidden" name="sign_in" value="sign_in">
                                 <p class="mt-3 text-center">Don't have an account? <a href="signup.php"> Sign
                                         Up</a> now </p>
-                                <button class="btn btn-danger btn-block" id="btn-sign-in" type="submit" name="sign_in">
+                                <button class="btn btn-primary btn-block" id="btn-sign-in" type="submit" name="sign_in">
                                     Sign In
                                 </button>
                             </form>
@@ -252,32 +252,32 @@ if (isset($_POST['sign_in'])) {
             <div class="container">
                 <div class="row mx-md-auto">
 
-                    <div class="col-md-4 footer-contact">
-                        <h3>Daily<span class="bg-danger text-white rounded px-2">Digital</span>Returns<span>.</span></h3>
+                    <div class="col-lg-4 footer-contact">
+                        <h3>Daily<span class="bg-primary text-white rounded px-2">Crypto</span>Returns<span>.</span></h3>
                         <p>
                             The World Leading Investment and Trading Platform.
 
                         </p>
                     </div>
 
-                    <div class=" col-md-4 footer-links ml-md-auto">
+                    <div class="col-lg-4 footer-links ml-md-auto">
                         <h4>Useful Links</h4>
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a href="../">Home</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="../#about">About us</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="../#services">Services</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="" class="text-danger">Sign In</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="" class="text-primary">Sign In</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="signup.php">Sign Up</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-md-4 footer-links ml-md-auto">
+                    <div class="col-lg-4 footer-links ml-md-auto">
                         <h4>Contact</h4>
                         <ul>
-                            <li class="mt-4"><i class="icofont-location-arrow p-2 text-danger mt-n3"></i>10100
+                            <li class="mt-4"><i class="icofont-location-arrow p-2 text-primary mt-n3"></i>10100
                                 Santa Monica Blvd
                                 #2200 Los Angeles, CA 90067. United States.</li>
-                            <li><i class="icofont-email p-2 text-danger mt-1"></i> support@newname.com</li>
+                            <li><i class="icofont-email p-2 text-primary mt-1"></i> support@newname.com</li>
                             <li><i class="icofont-whatsapp p-2 text-success"></i> +1 412 912 7001</li>
 
                         </ul>
@@ -292,7 +292,7 @@ if (isset($_POST['sign_in'])) {
 
             <div class="m-md-auto text-center text-md-center">
                 <div class="copyright">
-                    &copy; Copyright <strong><span>Daily<span class="text-danger"> Digital</span> Returns</strong>. All
+                    &copy; Copyright <strong><span>Daily<span class="text-primary"> Crypto</span> Returns</strong>. All
                     Rights Reserved
                 </div>
 

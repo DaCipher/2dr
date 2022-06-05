@@ -12808,7 +12808,11 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #ff4747;
+    background-color: #007bff;
+}
+
+.nav-pills .nav-link.active:hover {
+    color: #fff;
 }
 
 .nav-fill .nav-item {
@@ -22492,6 +22496,7 @@ dl li {
 .rtl .table-responsive::-webkit-scrollbar-track,
 .rtl ul.chats::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 .rtl .product-chart-wrapper::-webkit-scrollbar-thumb,

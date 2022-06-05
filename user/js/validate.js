@@ -214,7 +214,7 @@ $('document').ready(function() {
         var payID = "REF-B" + paymentID(10009, 99999);
         $('#transaction_id').text(payID);
         $("#plan").text(plan);
-        $("#amount").text(amount);
+        $("#amount, .amount").text(amount);
         $("#copy_btn").text("Copy");
         $("#copy_btn").removeClass("bg-success");
         $("#copy_btn").addClass("btn-outline-primary");
@@ -231,7 +231,7 @@ $('document').ready(function() {
         var payID = "REF-R" + paymentID(10009, 99999);
         $('#transaction_id').text(payID);
         $("#plan").text(plan);
-        $("#amount").text(amount);
+        $("#amount, .amount").text(amount);
         $("#copy_btn").text("Copy");
         $("#copy_btn").removeClass("bg-success");
         $("#copy_btn").addClass("btn-outline-primary");
@@ -248,7 +248,7 @@ $('document').ready(function() {
         var payID = "REF-V" + paymentID(10009, 99999);
         $('#transaction_id').text(payID);
         $("#plan").text(plan);
-        $("#amount").text(amount);
+        $("#amount, .amount").text(amount);
         $("#copy_btn").text("Copy");
         $("#copy_btn").removeClass("bg-success");
         $("#copy_btn").addClass("btn-outline-primary");
@@ -265,7 +265,7 @@ $('document').ready(function() {
         var payID = "REF-VG" + paymentID(10009, 99999);
         $('#transaction_id').text(payID);
         $("#plan").text(plan);
-        $("#amount").text(amount);
+        $("#amount, .amount").text(amount);
         $("#copy_btn").text("Copy");
         $("#copy_btn").removeClass("bg-success");
         $("#copy_btn").addClass("btn-outline-primary");
@@ -273,7 +273,7 @@ $('document').ready(function() {
 
     });
     $('#payment').on('hide.bs.modal', function(e) {
-        $('input').val("");
+        $('input[type="number"]').val("");
     });
     $("#copy_btn").click(function() {
         $("#wallet").select();

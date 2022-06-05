@@ -111,7 +111,7 @@ if (isset($_POST['profile'])) {
             $status = "<div class='alert alert-success' role='alert'>Record(s) Updated Successfully!</div>";
             $reply['success'] = "Record(s) Updated Successfully!";
         } else {
-            $status = '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+            $status = '<div class="alert alert-primary alert-dismissible fade show" role="alert">
             <strong>Error:</strong> Something went wrong!
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -131,7 +131,7 @@ if (isset($_POST['profile'])) {
 
 <head>
 
-    <title>User Profile - SmartFXCrypto</title>
+    <title>User Profile - Daily Crypto Returns</title>
     <?php include "./partials/head.php"; ?>
 </head>
 
@@ -160,7 +160,7 @@ if (isset($_POST['profile'])) {
                                             <i class="mdi mdi-home text-muted hover-cursor"></i>
                                             <p class="text-muted mb-0 hover-cursor">&nbsp;/&nbsp;User&nbsp;/&nbsp;
                                             </p>
-                                            <p class="text-danger mb-0 hover-cursor">Profile</p>
+                                            <p class="text-primary mb-0 hover-cursor">Profile</p>
                                         </div>
                                     </div>
                                 </div>
@@ -175,7 +175,7 @@ if (isset($_POST['profile'])) {
                                 <div class="card">
                                     <div class="card-body">
                                         <h5>Update Profile</h5>
-                                        <hr class="bg-danger">
+                                        <hr class="bg-primary">
                                         <?php echo $status; ?>
 
                                         <form action="profile.php" id="profile" method="post">
@@ -184,14 +184,14 @@ if (isset($_POST['profile'])) {
                                                     <div class="form-group">
                                                         <label for="firstname">First Name</label>
                                                         <input type="text" name="firstname" id="firstname" class="form-control" value="<?php echo ucfirst($user_firstname); ?>" required>
-                                                        <span class="help-block text-danger" id="firstname_err"><?php echo $fname_err; ?></span>
+                                                        <span class="help-block text-primary" id="firstname_err"><?php echo $fname_err; ?></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label for="lastname"> Last Name</label>
                                                         <input type="text" name="lastname" id="lastname" class="form-control" value="<?php echo ucfirst($user_lastname); ?>" required>
-                                                        <span class="help-block text-danger" id="lastname_err"><?php echo $lname_err; ?></span>
+                                                        <span class="help-block text-primary" id="lastname_err"><?php echo $lname_err; ?></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -200,7 +200,7 @@ if (isset($_POST['profile'])) {
                                                     <div class="form-group">
                                                         <label for="middlename">Middle Name</label>
                                                         <input type="text" name="middlename" id="middlename" class="form-control" value="<?php echo ucfirst($user_middlename); ?>">
-                                                        <span class="help-block text-danger" id="middlename_err"><?php echo $mname_err; ?></span>
+                                                        <span class="help-block text-primary" id="middlename_err"><?php echo $mname_err; ?></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
@@ -223,7 +223,7 @@ if (isset($_POST['profile'])) {
                                                     <div class="form-group">
                                                         <label for="phone"> Phone Number</label>
                                                         <input type="text" name="phone" id="phone" class="form-control" value="<?php echo $user_phone; ?>" required>
-                                                        <span class="help-block text-danger" id="phone_err"><?php echo $phone_err; ?></span>
+                                                        <span class="help-block text-primary" id="phone_err"><?php echo $phone_err; ?></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -237,7 +237,7 @@ if (isset($_POST['profile'])) {
                                                                 <?php echo $user_country; ?></option>
                                                         </select>
 
-                                                        <span class="help-block text-danger" id="country_err"><?php echo $country_err; ?></span>
+                                                        <span class="help-block text-primary" id="country_err"><?php echo $country_err; ?></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
@@ -248,7 +248,7 @@ if (isset($_POST['profile'])) {
                                                 </div>
                                             </div>
                                             <input type="hidden" name="profile" value="edit profile">
-                                            <button type="submit" class="btn btn-block btn-danger" id="profile_btn">Update</button>
+                                            <button type="submit" class="btn btn-block btn-primary" id="profile_btn">Update</button>
                                         </form>
                                         <div class="alert text-center mt-2" id="profile_status"></div>
                                     </div>

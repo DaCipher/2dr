@@ -59,7 +59,7 @@ if (isset($_POST['settings'])) {
 
 <head>
 
-    <title>Account Settings - SmartFXCrypto</title>
+    <title>Account Settings - Daily Crypto Returns</title>
     <?php include "./partials/head.php"; ?>
 
 <body>
@@ -88,7 +88,7 @@ if (isset($_POST['settings'])) {
                                             <i class="mdi mdi-home text-muted hover-cursor"></i>
                                             <p class="text-muted mb-0 hover-cursor">
                                                 &nbsp;/&nbsp;Account&nbsp;/&nbsp;</p>
-                                            <p class="text-danger mb-0 hover-cursor">Settings</p>
+                                            <p class="text-primary mb-0 hover-cursor">Settings</p>
                                         </div>
                                     </div>
                                 </div>
@@ -110,15 +110,15 @@ if (isset($_POST['settings'])) {
                                             <div class="form-group">
                                                 <label for="password1">New Password</label>
                                                 <input type="password" name="password1" id="password1" class="form-control" required minlength="8">
-                                                <span class="help-block text-danger" id="password1_err"></span>
+                                                <span class="help-block text-primary" id="password1_err"></span>
                                             </div>
                                             <div class="form-group">
                                                 <label for="password2">Confirm Password</label>
                                                 <input type="password" name="password2" id="password2" class="form-control" required minlength="8">
-                                                <span class="help-block text-danger" id="password2_err"></span>
+                                                <span class="help-block text-primary" id="password2_err"></span>
                                             </div>
                                             <input type="hidden" name="settings" value="change password">
-                                            <button type="submit" class="btn btn-danger btn-block" id="settings_btn">
+                                            <button type="submit" class="btn btn-primary btn-block" id="settings_btn">
                                                 Change Password
                                             </button>
                                         </form>

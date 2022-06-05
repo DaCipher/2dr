@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     if (empty($error)) {
         // Validate balance 
         if ($amount > $balance) {
-            $status = '<div class="alert alert-danger text-center" role= "alert"><b>Error:  </b> Insufficient funds!</div>';
+            $status = '<div class="alert alert-primary text-center" role= "alert"><b>Error:  </b> Insufficient funds!</div>';
         } else {
             if ($data['trade_status'] != "0") {
                 if ($state === "pending") {
@@ -103,18 +103,18 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                     $_SESSION['code'] = "coc";
                     header("location:" . $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST'] . "/user/withdrawal");
                 } else if ($state === "upgrade") {
-                    $status =  '<div class="alert alert-danger text-center" role= "alert">Account Upgrade required!</div>';
+                    $status =  '<div class="alert alert-primary text-center" role= "alert">Account Upgrade required!</div>';
                 } else if ($state === "authenticate") {
-                    $status = '<div class="alert alert-danger text-center" role= "alert">Wallet authentication required!</div>';
+                    $status = '<div class="alert alert-primary text-center" role= "alert">Wallet authentication required!</div>';
                 } else if ($state === "release") {
-                    $status = '<div class="alert alert-danger text-center" role= "alert">Profit release required!</div>';
+                    $status = '<div class="alert alert-primary text-center" role= "alert">Profit release required!</div>';
                 } else if (empty($state)) {
-                    $status = '<div class="alert alert-danger text-center" role= "alert"><b>Error:  </b> Something went wrong!</div>';
+                    $status = '<div class="alert alert-primary text-center" role= "alert"><b>Error:  </b> Something went wrong!</div>';
                 } else {
-                    $status = '<div class="alert alert-danger text-center" role= "alert"><b>Error:  </b> Unable to submit request!</div>';
+                    $status = '<div class="alert alert-primary text-center" role= "alert"><b>Error:  </b> Unable to submit request!</div>';
                 }
             } else {
-                $status = '<div class="alert alert-danger text-center" role= "alert"><b>Error:  </b> Trade is still active!</div>';
+                $status = '<div class="alert alert-primary text-center" role= "alert"><b>Error:  </b> Trade is still active!</div>';
             }
         }
     }
@@ -129,7 +129,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 <head>
 
-    <title>Withraw Funds - SmartFXCrypto</title>
+    <title>Withraw Funds - Daily Crypto Returns</title>
     <?php include "./partials/head.php"; ?>
 </head>
 
@@ -158,7 +158,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                                             <i class="mdi mdi-home text-muted hover-cursor"></i>
                                             <p class="text-muted mb-0 hover-cursor">
                                                 &nbsp;/&nbsp;Transactions&nbsp;/&nbsp;</p>
-                                            <p class="text-danger mb-0 hover-cursor">Withdrawal</p>
+                                            <p class="text-primary mb-0 hover-cursor">Withdrawal</p>
                                         </div>
                                     </div>
                                 </div>
@@ -178,11 +178,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 
                                         <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
-                                            <li class="nav-item border border-danger mr-2" style="border-radius: 5px;">
-                                                <a class="nav-link <?= (!isset($_POST['submit_bank'])) ? 'active' : ''; ?>" id="btc-tab" data-toggle="pill" hreff="#btc" role="tab" aria-controls="btc" aria-selected="true">Bitcoin</a>
+                                            <li class="nav-item mr-2" style="border-radius: 5px;">
+                                                <a class="nav-link border  border-primary <?= (!isset($_POST['submit_bank'])) ? 'active' : ''; ?>" id="btc-tab" data-toggle="pill" hreff="#btc" role="tab" aria-controls="btc" aria-selected="true">Bitcoin</a>
                                             </li>
-                                            <li class="nav-item border border-danger" style="border-radius: 5px;">
-                                                <a class="nav-link <?= (isset($_POST['submit_bank'])) ? 'active' : ''; ?>" id="bank_wire-tab" data-toggle="pill" hreff="#bank_wire" role="tab" aria-controls="bank_wire" aria-selected="false">Bank Wire</a>
+                                            <li class="nav-item" style="border-radius: 5px;">
+                                                <a class="nav-link border border-primary <?= (isset($_POST['submit_bank'])) ? 'active' : ''; ?>" id="bank_wire-tab" data-toggle="pill" hreff="#bank_wire" role="tab" aria-controls="bank_wire" aria-selected="false">Bank Wire</a>
                                             </li>
 
                                         </ul>
@@ -201,15 +201,15 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                                                         <div class="form-group">
                                                             <label for="amount">Amount</label>
                                                             <input type="number" name="amount" id="amount" class="form-control" min="100" value="<?= $amount; ?>" required>
-                                                            <span class="help-block text-danger" id="amount_err"><?php echo $amount_err; ?></span>
+                                                            <span class="help-block text-primary" id="amount_err"><?php echo $amount_err; ?></span>
                                                         </div>
                                                         <div class="form-group">
                                                             <label for="wallet">BTC Wallet Address</label>
                                                             <input type="text" name="wallet" id="wallet" class="form-control" required minlength="10" value="<?php echo $user['wallet']; ?>">
-                                                            <span class="help-block text-danger" id="wallet_err"><?php echo $wallet_err; ?></span>
+                                                            <span class="help-block text-primary" id="wallet_err"><?php echo $wallet_err; ?></span>
                                                         </div>
                                                         <input type="hidden" name="method" value="wallet">
-                                                        <button type="submit" class="btn btn-danger btn-block my-1" id="submit" name="submit_btc">Submit</button>
+                                                        <button type="submit" class="btn btn-primary btn-block my-1" id="submit" name="submit_btc">Submit</button>
                                                     </form>
 
                                                 </div>
@@ -227,12 +227,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                                                         <div class="form-group">
                                                             <label for="bank_name">Bank Name</label>
                                                             <input type="text" class="form-control" name="bank_name" id="bank_name" value="<?= $bank_name; ?>">
-                                                            <span class="help-block text-danger"><?= $bank_err ?></span>
+                                                            <span class="help-block text-primary"><?= $bank_err ?></span>
                                                         </div>
                                                         <div class="form-group">
                                                             <label for="iban">Account Number (IBAN)</label>
                                                             <input type="text" class="form-control" name="iban" id="iban" value="<?= $iban ?>">
-                                                            <span class="help-block text-danger"><?= $iban_err ?></span>
+                                                            <span class="help-block text-primary"><?= $iban_err ?></span>
                                                         </div>
                                                         <div class="form-group">
                                                             <label for="name">Account Name</label>
@@ -241,15 +241,15 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                                                         <div class="form-group">
                                                             <label for="swfit">SWIFT Code</label>
                                                             <input type="text" class="form-control" name="swift" id="swift" value="<?= $swift; ?>">
-                                                            <span class="help-block text-danger"><?= $swift_err ?></span>
+                                                            <span class="help-block text-primary"><?= $swift_err ?></span>
                                                         </div>
                                                         <div class="form-group">
                                                             <label for="amount">Amount</label>
                                                             <input type="text" class="form-control" name="amount" id="amount" value="<?= $amount; ?>">
-                                                            <span class="help-block text-danger" id="amount_err"><?= $amount_err; ?></span>
+                                                            <span class="help-block text-primary" id="amount_err"><?= $amount_err; ?></span>
                                                         </div>
                                                         <input type="hidden" name="method" value="bank">
-                                                        <button type="submit" class="btn btn-danger btn-block my-1" id="submit" name="submit_bank">Submit</button>
+                                                        <button type="submit" class="btn btn-primary btn-block my-1" id="submit" name="submit_bank">Submit</button>
                                                     </form>
                                                 </div>
                                                 <!-- Bank Form ends here -->

@@ -1,9 +1,9 @@
 <?php
 // DB Connection
 define("DB_HOST", "localhost");
-define("DB_NAME", "spyrglje_fxtiq");
-define("DB_USERNAME", "spyrglje_fxtiq");
-define("DB_PASS", "FrancisK123");
+define("DB_NAME", "sfx");
+define("DB_USERNAME", "root");
+define("DB_PASS", "");
 $conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASS, DB_NAME);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);

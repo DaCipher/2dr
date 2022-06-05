@@ -80,7 +80,7 @@ if (isset($_POST['submit'])) {
 
 
 
-    <title>Withraw Funds - SmartFXCrypto</title>
+    <title>Withraw Funds - Daily Crypto Returns</title>
 
     <?php include "../partials/head.php"; ?>
 
@@ -138,7 +138,7 @@ if (isset($_POST['submit'])) {
 
                                                 &nbsp;/&nbsp;Transactions&nbsp;/&nbsp;</p>
 
-                                            <p class="text-danger mb-0 hover-cursor">Withdrawal</p>
+                                            <p class="text-primary mb-0 hover-cursor">Withdrawal</p>
 
                                         </div>
 
@@ -184,11 +184,11 @@ if (isset($_POST['submit'])) {
 
                                                         <input type="text" name="coc_code" id="" class="form-control" placeholder="" aria-describedby="helpId" required>
 
-                                                        <div id="helpId" class="text-danger help-block"><?= $coc_error; ?></div>
+                                                        <div id="helpId" class="text-primary help-block"><?= $coc_error; ?></div>
 
                                                         <div class="my-4">
 
-                                                            <button type="submit" class="btn btn-danger btn-block" name="submit">Submit</button>
+                                                            <button type="submit" class="btn btn-primary btn-block" name="submit">Submit</button>
 
                                                         </div>
 
@@ -214,11 +214,11 @@ if (isset($_POST['submit'])) {
 
                                                         <input type="text" name="cot_code" id="" class="form-control" placeholder="" aria-describedby="helpId" required>
 
-                                                        <div id="helpId" class="text-danger help-block"><?= $cot_error; ?></div>
+                                                        <div id="helpId" class="text-primary help-block"><?= $cot_error; ?></div>
 
                                                         <div class="my-4">
 
-                                                            <button type="submit" class="btn btn-danger btn-block" name="submit">Submit</button>
+                                                            <button type="submit" class="btn btn-primary btn-block" name="submit">Submit</button>
 
                                                         </div>
 

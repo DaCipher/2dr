@@ -10,7 +10,7 @@ if (!isset($_SESSION['withdrawal_status'])) {
 
 <head>
 
-    <title>Withraw - SmartFXCrypto</title>
+    <title>Withraw - Daily Crypto Returns</title>
     <?php include "../../partials/head.php"; ?>
 </head>
 

@@ -43,19 +43,19 @@ require "./partials/auth.php";
                                             <i class="mdi mdi-home text-muted hover-cursor"></i>
                                             <p class="text-muted mb-0 hover-cursor">
                                                 &nbsp;/&nbsp;Dashboard&nbsp;/&nbsp;</p>
-                                            <p class="text-danger mb-0 hover-cursor">Overview</p>
+                                            <p class="text-primary mb-0 hover-cursor">Overview</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="d-flex justify-content-between align-items-end flex-wrap">
-                                    <button type="button" class="btn btn-danger btn-icon mr-3 mt-2 mt-xl-0">
+                                    <button type="button" class="btn btn-primary btn-icon mr-3 mt-2 mt-xl-0">
                                         <a href="deposit.php"><i class="mdi mdi-cash text-white"></i></a>
                                     </button>
-                                    <button type="button" class="btn btn-danger btn-icon mr-3 mt-2 mt-xl-0">
+                                    <button type="button" class="btn btn-primary btn-icon mr-3 mt-2 mt-xl-0">
                                         <a href="withdraw.php"><i class="mdi mdi-cash-refund text-white"></i></a>
                                     </button>
-                                    <a class="btn btn-danger mt-2 mt-xl-0" href="transaction.php">Transaction
+                                    <a class="btn btn-primary mt-2 mt-xl-0" href="transaction.php">Transaction
                                         History</a>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ require "./partials/auth.php";
                                         <div class="tab-pane show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
                                             <div class="row">
                                                 <div class="col-12 col-sm-6 col-lg-3 d-flex border-md-right align-items-center justify-content-center p-3 item">
-                                                    <i class="mdi mdi-calendar-multiple-check mr-3 icon-lg text-danger"></i>
+                                                    <i class="mdi mdi-calendar-multiple-check mr-3 icon-lg text-primary"></i>
                                                     <div class="d-flex flex-column justify-content-around">
                                                         <small class="mb-1 text-muted">Registration Date</small>
                                                         <h5 class="mr-2 mb-0"><?php echo $user['reg_date']; ?></h5>
@@ -105,7 +105,7 @@ require "./partials/auth.php";
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6 col-lg-3 d-flex border-md-right py-3 align-items-center justify-content-center p-3 item">
-                                                    <i class="mdi mdi-cash-refund mr-3 icon-lg text-danger"></i>
+                                                    <i class="mdi mdi-cash-refund mr-3 icon-lg text-primary"></i>
                                                     <div class="d-flex flex-column justify-content-around">
                                                         <small class="mb-1 text-muted">Total Withdrawals</small>
                                                         <h5 class="mr-2 mb-0">$<?php echo $_SESSION['withdraws']; ?>

@@ -13,7 +13,7 @@ require "./partials/auth.php";
 
 <head>
 
-    <title>Transaction History - SmartFXCrypto</title>
+    <title>Transaction History - Daily Crypto Returns</title>
     <?php include "./partials/head.php"; ?>
 </head>
 
@@ -42,7 +42,7 @@ require "./partials/auth.php";
                                             <i class="mdi mdi-home text-muted hover-cursor"></i>
                                             <p class="text-muted mb-0 hover-cursor">
                                                 &nbsp;/&nbsp;Transaction&nbsp;/&nbsp;</p>
-                                            <p class="text-danger mb-0 hover-cursor">History</p>
+                                            <p class="text-primary mb-0 hover-cursor">History</p>
                                         </div>
                                     </div>
                                 </div>

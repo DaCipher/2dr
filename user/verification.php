@@ -100,7 +100,7 @@ if (isset($_POST['upload'])) {
 
 <head>
     <!-- Required meta tags -->
-    <title>User Verification</title>
+    <title>User Verification - Daily Crypto Returns</title>
     <?php include "./partials/head.php"; ?>
 </head>
 
@@ -138,16 +138,16 @@ if (isset($_POST['upload'])) {
                                 </div>
 
                                 <form action="" method="post" enctype="multipart/form-data">
-                                    <span class="help-block text-danger my-3"><?= $status_error; ?></span>
+                                    <span class="help-block text-primary my-3"><?= $status_error; ?></span>
                                     <div class="mb-4 p-3">
                                         <label for="" class="font-weight-bold">ID Front</label>
                                         <input type="file" name="id-front" id="id-front" accept=".pdf, .png, .jpeg, .jpg" class="form-control-file" required>
-                                        <span class="help-block text-danger"><?= $front_id_error; ?></span>
+                                        <span class="help-block text-primary"><?= $front_id_error; ?></span>
                                     </div>
                                     <div class="mb-4 p-3">
                                         <label for="" class="font-weight-bold">ID Back</label>
                                         <input type="file" name="id-back" id="id-front" accept=".pdf, .png, .jpeg, .jpg" class="form-control-file" required>
-                                        <span class="help-block text-danger"><?= $front_id_error; ?></span>
+                                        <span class="help-block text-primary"><?= $front_id_error; ?></span>
                                     </div>
                                     <div>
                                         <button type="submit" name="upload" class="btn btn-block btn-primary">UPLOAD DOCUMENT</button>
