@@ -40,6 +40,7 @@ $("document").ready(function() {
                 if (data.uname_err !== undefined) {
                     $("#username_err").text(data.uname_err);
                     $("#username").addClass("border border-danger");
+                    $("#password").val(""); 
                 } else {
                     $("#username_err").text("");
                     $("#username").removeClass("border border-danger");
@@ -47,6 +48,7 @@ $("document").ready(function() {
                 if (data.psw_err !== undefined) {
                     $("#password_err").text(data.psw_err);
                     $("#password").addClass("border border-danger");
+                     $("#password").val("");
                 } else {
                     $("#password_err").text("");
                     $("#password").removeClass("border border-danger");
