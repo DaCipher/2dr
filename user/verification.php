@@ -100,7 +100,7 @@ if (isset($_POST['upload'])) {
 
 <head>
     <!-- Required meta tags -->
-    <title>User Verification - Daily Crypto Returns</title>
+    <title>User Verification - Daily Crypto Return</title>
     <?php include "./partials/head.php"; ?>
 </head>
 
@@ -123,7 +123,7 @@ if (isset($_POST['upload'])) {
                                 <h2 class="text-center mb-4">UPLOAD ID</h2>
                                 <div>
                                     <p class="mb-5" style="line-height: 30px;">
-                                        FXTradeIQ is legally required to hold on record (to file) the necessary documentation in support of your application. Trading access and/or withdrawals will not be permitted until your documents have been received and verified. You should either upload 'proof of identity' or 'proof of residency' document.
+                                        Daily Crypto Return is legally required to hold on record (to file) the necessary documentation in support of your application. Trading access and/or withdrawals will not be permitted until your documents have been received and verified. You should either upload 'proof of identity' or 'proof of residency' document.
                                     </p>
 
                                     <h4>PROOF OF IDENTITY:</h4>
@@ -167,7 +167,7 @@ if (isset($_POST['upload'])) {
                                                 <h6>Our Legal Team is reviewing your documents.</h6>
                                                 <div>
                                                     <p>Pleae note that this review can take some time. Once the verification is done, you will have full access to your trading platform.</p>
-                                                    <p>For more information contact us on <span class="font-weight-bold"> support@fxtrade-iq.com</span></p>
+                                                    <p>For more information contact us on <span class="font-weight-bold"> support@dialycryptoreturn.com</span></p>
                                                 </div>
                                             </div>
                                         </div>
