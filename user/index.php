@@ -3,7 +3,6 @@ session_start();
 require "../middleware/auth.php";
 
 // Validate user session
-
 require "./partials/auth.php";
 ?>
 
@@ -38,7 +37,7 @@ require "./partials/auth.php";
                                 <div class="d-flex align-items-end flex-wrap">
                                     <div class="mr-md-3 mr-xl-5">
 
-                                        <h2>Welcome back,</h2>
+                                        <h2>Welcome <?= ucfirst($_SESSION['firstname']); ?>,</h2>
                                         <div class="d-flex">
                                             <i class="mdi mdi-home text-muted hover-cursor"></i>
                                             <p class="text-muted mb-0 hover-cursor">

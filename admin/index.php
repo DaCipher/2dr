@@ -126,16 +126,16 @@ if (isset($_POST['proceed'])) {
                 <div class="navbar-brand-wrapper justify-content-center d-none d-lg-flex">
                     <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
                         <a class="navbar-brand brand-logo" href="../">
-                            <h4 class="text-dark">FX<span class='bg-danger rounded text-white px-1'>TRADE</span>IQ<span class='text-danger'><b>.</b></span></h4>
+                            <h4 class="text-dark">Daily<span class='bg-primary rounded text-white p-1'>Crypto</span>Returns<span class='text-primary'><b>.</b></span></h4>
                         </a>
                         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-                            <span class="mdi mdi-sort-variant text-danger"></span>
+                            <span class="mdi mdi-sort-variant text-primary"></span>
                         </button>
                     </div>
                 </div>
                 <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between flex-fill">
                     <a class="d-lg-none" href="../">
-                        <h4 class="text-dark">Smart<span class='bg-danger rounded text-white px-1'>FX</span>Crypto<span class='text-danger'><b>.</b></span></h4>
+                        <h4 class="text-dark">Daily<span class='bg-primary rounded text-white p-1'>Crypto</span>Returns<span class='text-primary'><b>.</b></span></h4>
                     </a>
 
                     <ul class="navbar-nav navbar-nav-right">
@@ -148,7 +148,7 @@ if (isset($_POST['proceed'])) {
                             </a>
                             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
                                 <a class="dropdown-item" href="../logout">
-                                    <i class="mdi mdi-logout text-danger"></i> Logout
+                                    <i class="mdi mdi-logout text-primary"></i> Logout
                                 </a>
                             </div>
                         </li>
@@ -165,9 +165,9 @@ if (isset($_POST['proceed'])) {
                             <div class="shadow rounded">
                                 <div class="card rounded">
                                     <div class="card-body">
-                                        <h4 class="card-tittle pl-4 text-danger">Choose Passcode</h4>
+                                        <h4 class="card-tittle pl-4 text-primary">Choose Passcode</h4>
 
-                                        <hr class="bg-danger">
+                                        <hr class="bg-primary">
                                         <p class="text-center"><i>Passcode required for added security</i></p>
                                         <?php echo $pass_status; ?>
                                         <form action="index.php" method="post" class="p-4">
@@ -181,7 +181,7 @@ if (isset($_POST['proceed'])) {
                                                 <input type="password" name="passcode2" id="passcode2" class="form-control" minlength="5" required value="<?php echo $input_pass2; ?>">
                                                 <span class="help-block text-danger"><?php echo $pass2_err; ?></span>
                                             </div>
-                                            <button type="submit" class="btn btn-block btn-outline-danger" name="submit">Submit</button>
+                                            <button type="submit" class="btn btn-block btn-outline-primary" name="submit">Submit</button>
                                         </form>
                                     </div>
                                 </div>
@@ -220,16 +220,16 @@ if (isset($_POST['proceed'])) {
                 <div class="navbar-brand-wrapper justify-content-center d-none d-lg-flex">
                     <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
                         <a class="navbar-brand brand-logo" href="../">
-                            <h4 class="text-dark">FX<span class='bg-danger rounded text-white px-1'>Trade</span>IQ<span class='text-danger'><b>.</b></span></h4>
+                            <h4 class="text-dark">Daily<span class='bg-primary rounded text-white p-1'>Crypto</span>Returns<span class='text-primary'><b>.</b></span></h4>
                         </a>
                         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-                            <span class="mdi mdi-sort-variant text-danger"></span>
+                            <span class="mdi mdi-sort-variant text-primary"></span>
                         </button>
                     </div>
                 </div>
                 <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between flex-fill">
                     <a class="d-lg-none" href="../">
-                        <h4 class="text-dark">Smart<span class='bg-danger rounded text-white px-1'>FX</span>Crypto<span class='text-danger'><b>.</b></span></h4>
+                        <h4 class="text-dark">Smart<span class='bg-primary rounded text-white px-1'>FX</span>Crypto<span class='text-primary'><b>.</b></span></h4>
                     </a>
 
                     <ul class="navbar-nav navbar-nav-right">
@@ -242,7 +242,7 @@ if (isset($_POST['proceed'])) {
                             </a>
                             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
                                 <a class="dropdown-item" href="../logout">
-                                    <i class="mdi mdi-logout text-danger"></i> Logout
+                                    <i class="mdi mdi-logout text-primary"></i> Logout
                                 </a>
                             </div>
                         </li>
@@ -261,8 +261,8 @@ if (isset($_POST['proceed'])) {
                             <div class="shadow">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-tittle text-center text-danger"><i class="mdi mdi-lock"></i>Authentication</h4>
-                                        <hr class="bg-danger">
+                                        <h4 class="card-tittle text-center text-primary"><i class="mdi mdi-lock"></i>Authentication</h4>
+                                        <hr class="bg-primary">
                                         <p class="text-center card-text"><i>Additional information
                                                 required for
                                                 user
@@ -275,7 +275,7 @@ if (isset($_POST['proceed'])) {
                                                 <span class="help-block text-danger"><?php echo $pass_err; ?></span>
                                             </div>
                                             <p>Forgot Passcode? Conatct <b>Portal Admin</b>.</p>
-                                            <button type="submit" class="btn btn-block btn-outline-danger" name="proceed">Proceed</button>
+                                            <button type="submit" class="btn btn-block btn-outline-primary" name="proceed">Proceed</button>
                                         </form>
                                     </div>
                                 </div>
