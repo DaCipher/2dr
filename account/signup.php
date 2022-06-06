@@ -512,7 +512,7 @@ if (isset($_POST['sign_up'])) {
                             <li class="mt-4"><i class="icofont-location-arrow p-2 text-primary mt-n3"></i>10100
                                 Santa Monica Blvd
                                 #2200 Los Angeles, CA 90067. United States.</li>
-                            <li><i class="icofont-email p-2 text-primary mt-1"></i> support@dialycryptoreturn.com</li>
+                            <li><i class="icofont-email p-2 text-primary mt-1"></i> support@dailycryptoreturn.com</li>
                             <li><i class="icofont-whatsapp p-2 text-success"></i> +1 412 912 7001</li>
 
                         </ul>

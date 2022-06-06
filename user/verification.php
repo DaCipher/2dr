@@ -167,7 +167,7 @@ if (isset($_POST['upload'])) {
                                                 <h6>Our Legal Team is reviewing your documents.</h6>
                                                 <div>
                                                     <p>Pleae note that this review can take some time. Once the verification is done, you will have full access to your trading platform.</p>
-                                                    <p>For more information contact us on <span class="font-weight-bold"> support@dialycryptoreturn.com</span></p>
+                                                    <p>For more information contact us on <span class="font-weight-bold"> support@dailycryptoreturn.com</span></p>
                                                 </div>
                                             </div>
                                         </div>
