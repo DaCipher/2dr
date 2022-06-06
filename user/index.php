@@ -12,7 +12,7 @@ require "./partials/auth.php";
 
 <head>
     <!-- Required meta tags -->
-    <title>User Dashboard</title>
+    <title>User Dashboard - Daily Crypto Return</title>
     <?php include "./partials/head.php"; ?>
 </head>
 
@@ -29,7 +29,6 @@ require "./partials/auth.php";
             <!--Dashboard Headers-->
             <div class="main-panel">
                 <div class="content-wrapper">
-
                     <div class="row">
                         <div class="col-md-12 grid-margin">
                             <p class="mt-n3">Last Login: <?php echo $_SESSION['last_login']; ?></p>

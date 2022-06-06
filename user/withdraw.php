@@ -129,7 +129,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 <head>
 
-    <title>Withraw Funds - Daily Crypto Returns</title>
+    <title>Withraw Funds - Daily Crypto Return</title>
     <?php include "./partials/head.php"; ?>
 </head>
 

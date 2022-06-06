@@ -131,7 +131,7 @@ if (isset($_POST['profile'])) {
 
 <head>
 
-    <title>User Profile - Daily Crypto Returns</title>
+    <title>User Profile - Daily Crypto Return</title>
     <?php include "./partials/head.php"; ?>
 </head>
 

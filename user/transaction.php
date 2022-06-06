@@ -13,7 +13,7 @@ require "./partials/auth.php";
 
 <head>
 
-    <title>Transaction History - Daily Crypto Returns</title>
+    <title>Transaction History - Daily Crypto Return</title>
     <?php include "./partials/head.php"; ?>
 </head>
 

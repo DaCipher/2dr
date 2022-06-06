@@ -18,7 +18,7 @@ require "./partials/auth.php";
 
 <head>
 
-    <title>Account Funding- Daily Crypto Returns</title>
+    <title>Account Funding- Daily Crypto Return</title>
     <?php include "./partials/head.php"; ?>
 </head>
 

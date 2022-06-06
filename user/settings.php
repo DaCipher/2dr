@@ -59,7 +59,7 @@ if (isset($_POST['settings'])) {
 
 <head>
 
-    <title>Account Settings - Daily Crypto Returns</title>
+    <title>Account Settings - Daily Crypto Return</title>
     <?php include "./partials/head.php"; ?>
 
 <body>
