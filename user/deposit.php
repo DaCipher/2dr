@@ -237,7 +237,7 @@ require "./partials/auth.php";
                                     </div>
 
                                     <hr>
-                                    <p class="text-center" style=" font-size: 0.8rem">Payments are processed within 4 hours.<br /> Should your transaction take more than the usual, please contact support team on <a href="mailto:support@fxtrade-iq.com">support@fxtrade-iq.com</a>.
+                                    <p class="text-center" style=" font-size: 0.8rem">Payments are processed within 4 hours.<br /> Should your transaction take more than the usual, please contact support team on <a href="mailto:support@dailycryptoreturn.com">support@dailycryptoreturn.com</a>.
                                     </p>
                                 </div>
                             </div>
