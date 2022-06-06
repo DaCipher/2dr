@@ -6,7 +6,7 @@ if (isset($_SESSION)) $account = checkStatus($_SESSION['id']);
     <div class="navbar-brand-wrapper justify-content-center d-none d-lg-flex">
         <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
             <a class="navbar-brand brand-logo" href="<?= $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST']; ?>/user/">
-                <h4 class="text-dark">Daily<span class='bg-primary rounded text-white p-1'>Crypto</span>Returns<span class='text-primary'><b>.</b></span></h4>
+                <h4 class="text-dark">Daily<span class='bg-primary rounded text-white p-1'>Crypto</span>Return<span class='text-primary'><b>.</b></span></h4>
             </a>
             <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
                 <span class="mdi mdi-sort-variant text-primary"></span>
@@ -15,7 +15,7 @@ if (isset($_SESSION)) $account = checkStatus($_SESSION['id']);
     </div>
     <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end flex-fill">
         <a class="d-lg-none" style="text-decoration: none;" href="<?= $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST']; ?>/user/">
-            <h4 class="text-dark">Daily<span class='bg-primary rounded text-white p-1'>Crypto</span>Returns<span class='text-primary'><b>.</b></span></h4>
+            <h4 class="text-dark">Daily<span class='bg-primary rounded text-white p-1'>Crypto</span>Return<span class='text-primary'><b>.</b></span></h4>
         </a>
         <ul class="navbar-nav mr-lg-4 w-100">
             <li class="nav-item nav-search d-none d-lg-block w-100">

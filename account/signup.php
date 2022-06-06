@@ -274,7 +274,7 @@ if (isset($_POST['sign_up'])) {
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Sign Up - Daily Crypto Returns</title>
+    <title>Sign Up - Daily Crypto Return</title>
     <meta content="Crytpo Currency, Stocks, Indices, Foreign Exchange, Binary" name="Global Cryptocurrency, Forex Trading and Investment">
     <meta content="" name="keywords">
 
@@ -312,7 +312,7 @@ if (isset($_POST['sign_up'])) {
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-xl-10 d-flex align-items-center">
-                    <div class="logo mr-auto"><a href="../">Daily<span class="bg-primary text-white rounded px-2">Crypto</span>Returns<span>.</span></a></div>
+                    <div class="logo mr-auto"><a href="../">Daily<span class="bg-primary text-white rounded px-2">Crypto</span>Return<span>.</span></a></div>
                     <!-- Uncomment below if you prefer to use an image logo -->
                     <!-- <div class="border border-primary">
                     <a href="index.html" class="logo mr-auto">
@@ -488,7 +488,7 @@ if (isset($_POST['sign_up'])) {
                 <div class="row mx-md-auto">
 
                     <div class="col-lg-4 footer-contact">
-                        <h3>Daily<span class="bg-primary text-white rounded px-2">Crypto</span>Returns<span>.</span></h3>
+                        <h3>Daily<span class="bg-primary text-white rounded px-2">Crypto</span>Return<span>.</span></h3>
                         <p>
                             Best Digital Crypto FX Investment and Trading Platform.
 
@@ -527,7 +527,7 @@ if (isset($_POST['sign_up'])) {
 
             <div class="m-md-auto text-center text-md-center">
                 <div class="copyright">
-                    &copy; Copyright <strong><span>Daily<span class="text-primary">Crypto</span>Returns</strong>. All
+                    &copy; Copyright <strong><span>Daily<span class="text-primary">Crypto</span>Return</strong>. All
                     Rights Reserved
                 </div>
 
